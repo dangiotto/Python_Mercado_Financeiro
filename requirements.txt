@@ -50,7 +50,6 @@ pydeck==0.9.1
 Pygments==2.18.0
 pymdown-extensions==10.8.1
 pyparsing==3.1.2
-python-bcb==0.2.0
 python-dateutil==2.9.0.post0
 pytz==2024.1
 PyYAML==6.0.1
