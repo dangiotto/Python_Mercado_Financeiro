@@ -8,7 +8,7 @@ from streamlit_extras.metric_cards import style_metric_cards
 from streamlit_extras.grid import grid
 
 def build_sidebar():
-    st.image("/workspaces/Python_Mercado_Financeiro/images/giotto-logo.png")
+    st.image("images/giotto-logo.png")
     ticker_list = pd.read_csv("tickers_ibra.csv", index_col=0)
     tickers = st.multiselect(label="Selecione as Empresas", options=ticker_list, placeholder='Códigos')
     tickers = [t+".SA" for t in tickers]
